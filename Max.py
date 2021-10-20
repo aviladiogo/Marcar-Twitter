@@ -44,7 +44,7 @@ while True:
         envia()
         sleep(2)
         fechar()
-        break
+        sleep(60)
     else:
         print("esperando minutagem") #caso seja 14 horas porém não seja 14:30
         print(hora.tm_min)
